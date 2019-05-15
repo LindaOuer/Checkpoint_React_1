@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 30s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-logo:hover {
+  fill: #49c;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    /* transform: scaleY(0.75);
+    transform: scaleX(0.75); */
+    transform: rotateY(90deg);
+  }
+  to {
+    /* transform: scaleY(1.5);
+    transform: scaleX(1.5); */
+    transform: rotateY(0deg);
+  }
+}
+.para1 {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  color: #008cba;
+  border: 1px solid gray;
+  border-left: 6px solid rgb(180, 28, 28);
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.para2 {
+  text-indent: 30px;
+  text-align: justify;
+  font-style: italic;
+  color: #78d7f7;
+  border: 1px dashed gray;
+  border-left: 6px solid rgb(78, 255, 131);
+  border-radius: 5px;
+  padding: 8px;
+}
+blockquote {
+  margin: 30px auto;
+  padding: 1em 30px 1em 30px;
+  line-height: 1;
+  position: relative;
+  font-style: italic;
+}
+
+blockquote::before {
+  font-family: Arial;
+  content: "\201C";
+  font-size: 4em;
+  position: absolute;
+  left: -5px;
+  top: -10px;
+}
+
+blockquote::after {
+  font-family: Arial;
+  content: "\201D";
+  font-size: 4em;
+  position: absolute;
+  right: 5px;
+  top: -10px;
+}
+
+hr {
+  color: white;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 2px;
+}
